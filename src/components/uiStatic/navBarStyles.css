@@ -1,0 +1,127 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background: #004878;
+    width: 100%;
+    padding: 12px;
+}
+
+header .text{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .enlaces nav a {
+    display: inline-block;
+    text-align: end;
+}
+
+header .enlaces nav div a {
+    display: inline-block;
+}
+
+header .text .enlaces{
+    display: inline-block;
+}
+
+header .enlaces {
+    width: 40%;
+    margin-left: -50%;
+}
+
+header .enlaces nav{
+    width: 100%;
+}
+
+header .text .name{
+    display: inline-block;
+    margin-right: 15%;
+}
+
+header .text .name h3{
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+header .text .menu-enlace {
+    display: inline-block;
+}
+
+header .text .enlaces nav a{
+    text-decoration: none;
+    color: #FFF; 
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 5px;
+    border-bottom: 1px solid transparent;
+    transition: all ease 0.5s;
+}
+
+header .text .enlaces nav .enlaces-redes{
+    font-weight: 100;
+    font-size: 12px;
+    margin-left: 5%;
+}
+
+header .text .enlaces nav .enlaces-redes-other{
+    font-weight: 100;
+    font-size: 12px;
+}
+
+header .text .menu-enlace i{
+    color: #fff;
+    font-size: 16px;
+    z-index: 2;
+    position: absolute;
+    margin-top: -9px;
+    transition: color ease 1s;
+}
+
+
+header .text .enlaces nav .enlazar-other:hover {
+    border-bottom: 1px solid #fff;
+}
+
+header .text .enlaces nav .enlaces-redes:hover {
+    font-weight: 300;
+}
+
+header .text .enlaces nav .enlaces-redes-other:hover{
+    font-weight: 300;
+}
+
+
+header .text .menu-enlace .menu{
+    /* z-index: 2; */
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+    background: #191919;
+    width: 200px;
+    padding: 30px;
+    margin-right: -200px;
+    transition: 2s 2ms ease;
+    display: block;
+    background: #fff;
+}
+
+header .text .menu a{
+    margin-top: 40px;
+    display: block;
+    background: none;
+    text-decoration: none;
+    color: #004878;
+    font-family: 'Roboto';
+}
